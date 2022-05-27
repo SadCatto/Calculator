@@ -80,9 +80,9 @@ p{
 
 @media only screen and (max-width:450px){
     .special p{
-        width: 80px;
+        width: 20vw;
     }
     .row p{
-        width: 80px;
+        width: 20vw;
     }
 }
