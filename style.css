@@ -1,6 +1,7 @@
 body{
     background-color: rgb(68, 68, 68);
     margin-top: 10vw;
+    padding: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
