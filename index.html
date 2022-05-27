@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <span class="outter">
+        <span class="result">
+            <p style="font-size: 15px;" id="min-result-el">0</p>
+            <p id="result-el">0</p>
+        </span>
+
+        <span class="inner">
+            <span class="row">
+                <p id="ac-el" class="ac" onclick="ac()">AC</p>
+                <p onclick="sevenPress()">7</p>
+                <p onclick="fourPress()">4</p>
+                <p id="one-el" onclick="onePress()">1</p>
+                <p onclick="doublezeroPress()">00</p>
+            </span>
+            <span class="row">
+                <p onclick="backspacePress()"><-</p>
+                <p onclick="eightPress()">8</p>
+                <p onclick="fivePress()">5</p>
+                <p id="two-el" onclick="twoPress()">2</p>
+                <p onclick="zeroPress()">0</p>
+            </span>
+
+            <span class="row">
+                <p onclick="dividePress()">/</p>
+                <p onclick="ninePress()">9</p>
+                <p onclick="sixPress()">6</p>
+                <p onclick="threePress()">3</p>
+                <p>.</p>
+            </span>
+
+            <span class="special">
+                <p onclick="multiplyPress()">*</p>
+                <p onclick="substractionPress()">-</p>
+                <p onclick="additionPress()">+</p>
+                <p class="equal" style="height: 120px;" onclick="equalTo()">=</p>
+            </span>
+    </span>
+
+    </span>
+    <script src="index.js"></script>
+
+</body>
+</html>
